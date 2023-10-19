@@ -10,8 +10,6 @@ This project serves as a proof-of-concept (PoC) to demonstrate how to integrate 
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Getting Started
 
@@ -37,7 +35,7 @@ Before you begin, ensure you have met the following requirements:
     ```shell
    poetry install
 
-Usage
+### Usage
 To run the PoC, follow these steps:
 
 1. Configure your dbt project to connect to Spark as the execution engine. You may need to update your profiles.yml to include Spark-specific settings.
