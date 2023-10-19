@@ -1,0 +1,19 @@
+
+version: 2
+
+models:
+  - name: example_model
+    buckets: 100
+    columns:
+      - name: id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+
+  - name: example_view
+    materialized: view
+
+  - name: example_partition_model
+    buckets: 100
+

@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "damavis-dbt-spark"
+version = "0.1.0"
+description = ""
+authors = ["Oscar <oscar.garcia@damavis.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+dbt-spark = {extras = ["PyHive"], version = "1.6.0"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
